@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: #222;
+    background: #fff;
+    font-size: small;
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.logo-main {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10.9rem;
+    margin-top: 2.4rem;
+    position: relative;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+form {
+    display: flex;
+}
+
+input {
+    margin-top: 5rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    height: 34px;
+    font-size: 1.6rem;
+    border: 1px solid rgb(209, 202, 202);
+    border-radius: 10rem;
+    width: 48rem;
+
+
+}
