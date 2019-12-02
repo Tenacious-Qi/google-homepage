@@ -37,16 +37,17 @@ ul {
 }
 
 
-.navbar .left {
+.left {
     display: flex;
     align-items: center;
     float: left;
 }
 
-.navbar .right {
+.right {
     display: flex;
-
+    align-items: center;
     float: right;
+    
 }
 
 .navbar li {
@@ -60,10 +61,10 @@ i {
 
 #sign-in-btn a {
     background-color: #4583EB;
-    color: #eee;
+    color: #fff;
     border-radius: 2px;
-    padding: .5rem 1rem;
-    font-weight: bolder;
+    padding: .8rem 1.2rem;
+    font-weight: bold;
 }
 
 
