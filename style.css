@@ -29,27 +29,43 @@ ul {
 }
 
 .navbar {
-    padding-top: 1rem;
+    padding-top: 1.1rem;
     font-size: 1.3rem;
     font-weight: lighter;
-    margin: 1.6rem 1rem;
+    margin: 1.3rem;
 
 }
 
+
 .navbar .left {
     display: flex;
+    align-items: center;
     float: left;
 }
 
 .navbar .right {
     display: flex;
-    float: right;
 
+    float: right;
 }
 
 .navbar li {
     padding: 0 1rem;
 }
+
+i {
+    font-size: 200%;
+    color: #727272;
+}
+
+#sign-in-btn a {
+    background-color: #4583EB;
+    color: #eee;
+    border-radius: 2px;
+    padding: .5rem 1rem;
+    font-weight: bolder;
+}
+
 
 .navbar a {
     text-decoration: none;
