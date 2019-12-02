@@ -3,12 +3,13 @@ html {
 }
 
 body {
-    color: #222;
+    
     background: #fff;
     font-size: small;
     font-family: arial, sans-serif;
-    display: flex;
-    justify-content: center;
+    color: #333;
+    font-weight: lighter;
+
 }
 
 html, body {
@@ -21,6 +22,38 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 1.6rem 1rem;
+
+}
+
+.navbar .left {
+    display: flex;
+    float: left;
+}
+
+.navbar .right {
+    display: flex;
+    float: right;
+
+}
+
+.navbar li {
+    padding: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3F3F3F;
 }
 
 .logo-main {
