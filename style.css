@@ -6,89 +6,126 @@ html {
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     font-size: 13px;
     font-family: arial, sans-serif;
-  }
+}
   
-  .navbar {
-    margin: 16px 17px 0 17px;
-  }
+.navbar {
+    margin: 14px 15px 25px 15px;
+}
   
-  ul {
+ul {
     list-style: none;
     overflow: hidden;
-  }
+}
   
-  li {
+nav li,
+footer li {
     float: left;
-  }
+}
   
-  span {
+span {
     float: right;
     padding-right: 15px;
-  }
+}
   
-  li a {
+li a {
     display: inline-block;
     padding: 5px 10px;
-    color: rgb(0,0,0,0.87);d
+    color: #727272;
     text-align: center;
     text-decoration: none;
     line-height: 24px;
     font-weight: lighter;
-  }
+}
   
-  .app-btn {
+.app-btn {
     font-size: 200%;
     color: #727272;
     position: relative;
     bottom: 3px;
     right: 5px;
-  }
+}
   
-  .sign-in-btn {
+.sign-in-btn {
     background-color: #4583EB;
     color: #fff;
     font-weight: bold;
     border-radius: 2px;
     padding: 1.5px 13px;
     line-height: 28px;
-   }
+}
   
-  .logo-main {
+.logo-main {
       text-align: center;
-      margin: 0 auto;
-      width: 100%;
-      padding-top: 10.9rem;
-      margin-top: 2.4rem;
+      padding-top: 109px;
+      margin-top: 24px;
       position: relative;
-  }
+}
   
-  .search {
+.search {
       display: flex;
       justify-content: center;
       width: 100%;
       margin: 0 auto;
-  }
+      margin-bottom: 30px;
+}
   
-  form {
+form {
       display: flex;
-  }
+}
   
-  input {
+input {
       margin-top: 20px;
       border-radius: 10px;
       padding: 12px;
-      width: 480px;
+      width: 450px;
       font-size: 16px;
       border: 1px solid rgb(209, 202, 202);
       border-radius: 100px;
-      
-  }
-  
-  #footer {
+}
+
+.search-buttons {
+      display: flex;
+      justify-content: center;
+}
+
+.search-buttons a {
+    display: block;
+    margin: 0 7px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #706d6d;
+    font-weight: normal;
+    font-size: 14px;
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+}
+
+.promo-link {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cart {
+    font-size: 225%;
+    color: #31a650;
+    position: relative;
+    top: 8px;
+    right: 3px;
+
+}
+
+.promo-link a {
+    text-decoration: none;
+    color: #1a0db0;
+}
+
+#footer {
     background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
@@ -97,10 +134,10 @@ html {
     border-top: solid 1px #e4e4e4;
     padding: 0 10px;
     line-height: 40px;
-  }
+}
   
-  footer li a {
+footer li a {
       padding: 5px 15px;
       color: #5f6368;
-  }
+}
 
