@@ -3,37 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <!--css file-->
         <link rel="stylesheet" href="style.css">
-        <!--font link-->
-        <link href=""> 
         <title>Google</title>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </head>
     <body>
-        <div class="navbar">
-            <div>
-                    <ul class="left">
-                            <li class="link left"><a href="https://www.about.google.com">About</a></li>
-                            <li class="link left"><a href="https://store.google.com">Store</a></li>
-                    </ul>
-                    <ul class="right">
-                        <li class="link"><a href="https://www.gmail.com">Gmail</a></li>
-                        <li class="link"><a href="https://www.images.google.com">Images</a></li>
-                        <li class="link"><a href="#"><i class="apps-icon"><ion-icon name="apps"></ion-icon></i></a></li>
-                        <li class="link" id="sign-in-btn"><a href="https://accounts.google.com">Sign In</a></li>  
-                    </ul>
+            <div class="navbar">
+              <nav>
+                <ul>
+                    <li><a href="https://about.google.com">About</a></li>
+                    <li><a href="https://store.google.com">Store</a></li>
+                    <span>
+                    <li><a href="https://gmail.com">Gmail</a></li>
+                    <li><a href="https://images.google.com">Images</a></li>
+                    <li><a href="https://gsuite.google.com"><i class="app-btn"><ion-icon name="apps"></ion-icon></i></a></li>
+                    <li><a class="sign-in-btn" href="https://accounts.google.com/signin">Sign In</a></li>
+                  </span>
+                </ul>
+              </nav>
             </div>
-
-        </div>
-        
-        <div id="main" class="content">
-            <div class="logo-main">
-                <img src="images/google-logo.png" alt="google logo" width="272" height="92">
-            </div>
-            <div class="search">
+            <div id="main" class="content">
+                    <div class="logo-main">
+                        <img src="images/google-logo.png" alt="google logo" width="272" height="92">
+                    </div>
+                    <div class="search">
                         <input type="text" name="search">
+                    </div>
+            
+                <div id="footer">
+              <footer>
+                <ul>
+                    <li><a href="https://ads.google.com">Advertising</a></li>
+                    <li><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/">How Search works</a></li>
+                    <span class="footer-right">
+                    <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms">Terms</a></li>
+                    <li><a href="https://www.google.com/preferences">Settings</a></li>
+                  </span>
+                </ul>
+              </footer>
             </div>
-        </div>
-    </body>
-</html>
+            
+         
+            
+          </body>
+          
+        </html>
+        

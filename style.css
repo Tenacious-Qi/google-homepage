@@ -1,108 +1,106 @@
 html {
     box-sizing: border-box;
-}
-
-body {
-    
-    background: #fff;
-    font-size: small;
-    font-family: arial, sans-serif;
-    color: #333;
-    font-weight: lighter;
-
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    font-size: 62.5%;
-}
-
-* {
+  }
+  
+  * {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
-}
-
-ul {
+  }
+  
+  body {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+  }
+  
+  .navbar {
+    margin: 16px 17px 0 17px;
+  }
+  
+  ul {
     list-style: none;
-}
-
-.navbar {
-    padding-top: 1.1rem;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    margin: 1.3rem;
-
-}
-
-
-.left {
-    display: flex;
-    align-items: center;
+    overflow: hidden;
+  }
+  
+  li {
     float: left;
-}
-
-.right {
-    display: flex;
-    align-items: center;
+  }
+  
+  span {
     float: right;
-    
-}
-
-.navbar li {
-    padding: 0 1rem;
-}
-
-i {
+    padding-right: 15px;
+  }
+  
+  li a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(0,0,0,0.87);d
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: lighter;
+  }
+  
+  .app-btn {
     font-size: 200%;
     color: #727272;
-}
-
-#sign-in-btn a {
+    position: relative;
+    bottom: 3px;
+    right: 5px;
+  }
+  
+  .sign-in-btn {
     background-color: #4583EB;
     color: #fff;
-    border-radius: 2px;
-    padding: .8rem 1.2rem;
     font-weight: bold;
-}
+    border-radius: 2px;
+    padding: 1.5px 13px;
+    line-height: 28px;
+   }
+  
+  .logo-main {
+      text-align: center;
+      margin: 0 auto;
+      width: 100%;
+      padding-top: 10.9rem;
+      margin-top: 2.4rem;
+      position: relative;
+  }
+  
+  .search {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  form {
+      display: flex;
+  }
+  
+  input {
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 12px;
+      width: 480px;
+      font-size: 16px;
+      border: 1px solid rgb(209, 202, 202);
+      border-radius: 100px;
+      
+  }
+  
+  #footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: solid 1px #e4e4e4;
+    padding: 0 10px;
+    line-height: 40px;
+  }
+  
+  footer li a {
+      padding: 5px 15px;
+      color: #5f6368;
+  }
 
-
-.navbar a {
-    text-decoration: none;
-    color: #3F3F3F;
-}
-
-.logo-main {
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 10.9rem;
-    margin-top: 2.4rem;
-    position: relative;
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    
-}
-
-form {
-    display: flex;
-}
-
-input {
-    margin-top: 5rem;
-    border-radius: 1rem;
-    padding: 2.5rem;
-    height: 34px;
-    font-size: 1.6rem;
-    border: 1px solid rgb(209, 202, 202);
-    border-radius: 10rem;
-    width: 48rem;
-
-
-}
